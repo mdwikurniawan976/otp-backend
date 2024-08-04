@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         <h2>Endpoint</h2>
         <div class='endpoint'>
-            <code>POST https://otp-backend-pied.vercel.app/</code>
+            <code>POST https://otp-backend-seven.vercel.app/</code>
         </div>
 
         <h2>Parameters</h2>
@@ -122,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <ol>
             <li>Open Postman and create a new request.</li>
             <li>Set the request method to <strong>POST</strong>.</li>
-            <li>Set the request URL to: <code>https://otp-backend-pied.vercel.app/</code></li>
+            <li>Set the request URL to: <code>https://otp-backend-seven.vercel.app/</code></li>
             <li>In the <strong>Body</strong> tab, select <strong>x-www-form-urlencoded</strong>.</li>
             <li>Add a key <strong>email</strong> with the value set to the recipient's email address.</li>
             <li>Click <strong>Send</strong> to make the request.</li>
@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <h2>Example Request</h2>
         <div class='code-block'>
             <pre>
-POST https://otp-backend-pied.vercel.app/
+POST https://otp-backend-seven.vercel.app/
 Content-Type: application/x-www-form-urlencoded
 
 email=example@example.com
